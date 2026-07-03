@@ -1,5 +1,14 @@
 # Continuous Integration on SEAPATH
 
+> [!WARNING]
+> The way of handling the CIs as described in this repository is obsolete.
+>
+> Most of the Ansible repository CI is fully contained in the repository's
+> workflows (linting, unit testing, Yocto, Debian).
+>
+> The CentOS and OracleLinux CIs are the only ones that have not been migrated
+> to the new workflows. New workflows should **not** be added here.
+
 This repository hosts the code of the CI used on the Ansible repository.
 
 A user guide of the CI is available on [the Wiki page](https://wiki.lfenergy.org/display/SEAP/Continuous+integration+on+SEAPATH).
